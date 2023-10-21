@@ -14,7 +14,7 @@ namespace module3pr
             double[] A = new double[5];
             double[,] B = new double[3, 4];
 
-            Console.WriteLine("Введите 5 чисел для массива A:");
+            Console.WriteLine("Введите 5 чисел для массива A: ");
             for (int i = 0; i < 5; i++)
             {
                 A[i] = Convert.ToDouble(Console.ReadLine());
